@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleYayiya", "SimpleYayiya\SimpleYayiya.csproj", "{AE2DA3C9-2FF4-435C-BC81-EB265036B5CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lotlab.PluginCommon", "PluginCommon\PluginCommon\Lotlab.PluginCommon.csproj", "{DD4CA890-3065-4FF1-AE58-35A163C0F148}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lotlab.PluginCommon.FFXIV", "PluginCommon\PluginCommon.FFXIV\Lotlab.PluginCommon.FFXIV.csproj", "{06C579E1-BE45-479C-9BA2-2B9C2A2DEA04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE2DA3C9-2FF4-435C-BC81-EB265036B5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2DA3C9-2FF4-435C-BC81-EB265036B5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2DA3C9-2FF4-435C-BC81-EB265036B5CE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AE2DA3C9-2FF4-435C-BC81-EB265036B5CE}.Debug|x64.Build.0 = Debug|Any CPU
+		{AE2DA3C9-2FF4-435C-BC81-EB265036B5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2DA3C9-2FF4-435C-BC81-EB265036B5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE2DA3C9-2FF4-435C-BC81-EB265036B5CE}.Release|x64.ActiveCfg = Release|Any CPU
+		{AE2DA3C9-2FF4-435C-BC81-EB265036B5CE}.Release|x64.Build.0 = Release|Any CPU
+		{DD4CA890-3065-4FF1-AE58-35A163C0F148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4CA890-3065-4FF1-AE58-35A163C0F148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4CA890-3065-4FF1-AE58-35A163C0F148}.Debug|x64.ActiveCfg = Debug|x64
+		{DD4CA890-3065-4FF1-AE58-35A163C0F148}.Debug|x64.Build.0 = Debug|x64
+		{DD4CA890-3065-4FF1-AE58-35A163C0F148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4CA890-3065-4FF1-AE58-35A163C0F148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4CA890-3065-4FF1-AE58-35A163C0F148}.Release|x64.ActiveCfg = Release|x64
+		{DD4CA890-3065-4FF1-AE58-35A163C0F148}.Release|x64.Build.0 = Release|x64
+		{06C579E1-BE45-479C-9BA2-2B9C2A2DEA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C579E1-BE45-479C-9BA2-2B9C2A2DEA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C579E1-BE45-479C-9BA2-2B9C2A2DEA04}.Debug|x64.ActiveCfg = Debug|x64
+		{06C579E1-BE45-479C-9BA2-2B9C2A2DEA04}.Debug|x64.Build.0 = Debug|x64
+		{06C579E1-BE45-479C-9BA2-2B9C2A2DEA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C579E1-BE45-479C-9BA2-2B9C2A2DEA04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C579E1-BE45-479C-9BA2-2B9C2A2DEA04}.Release|x64.ActiveCfg = Release|x64
+		{06C579E1-BE45-479C-9BA2-2B9C2A2DEA04}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {246F5DCD-B7FA-47F9-843A-7B1BAAF6EF0D}
+	EndGlobalSection
+EndGlobal
