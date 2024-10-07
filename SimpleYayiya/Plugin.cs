@@ -76,7 +76,7 @@ namespace SimpleYayiya
             (pluginScreenSpace.Parent as TabControl).TabPages.Remove(pluginScreenSpace);
 
             // 更新状态标签的内容
-            statusLabel.Text = "Plugin working!";
+            statusLabel.Text = $"Plugin working!, Pkt size: {Marshal.SizeOf<FFXIVIpcMarketBoardItemListing>()}";
         }
 
         /// <summary>

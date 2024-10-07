@@ -24,7 +24,7 @@ namespace SimpleYayiya
     struct FFXIVIpcMarketBoardItemListing
     {
         [StructLayout(LayoutKind.Sequential, Pack = 1)]
-        public struct ItemListing // 152 bytes each
+        public struct ItemListing // 144 bytes each
         {
             public uint64_t listingId;
             public uint64_t retainerId;
@@ -46,8 +46,6 @@ namespace SimpleYayiya
              */
             [MarshalAs(UnmanagedType.ByValArray, SizeConst = 5)]
             public uint16_t[] materiaValue;
-            public uint16_t padding1;
-            public uint32_t padding2;
             [MarshalAs(UnmanagedType.ByValArray, SizeConst = 32)]
             public char[] retainerName;
             [MarshalAs(UnmanagedType.ByValArray, SizeConst = 32)]
@@ -57,7 +55,6 @@ namespace SimpleYayiya
             public uint8_t onMannequin;
             public uint8_t marketCity;
             public uint16_t dyeId;
-            public uint16_t padding3;
             public uint32_t padding4;
         }
 
